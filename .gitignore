@@ -1,0 +1,35 @@
+#Test 
+/local/__dump
+/_tools
+/_test
+/_devzone
+
+#IDE
+.idea/
+
+# Exclude files
+/.htaccess
+.htaccess
+/.htsecure
+.htsecure
+/*.sql
+/*.xml
+*.log
+*.sql
+*.tar.gz
+*.txt
+/.svn
+*~
+
+#Bitrix core & data
+#core
+/bitrix
+/upload
+
+#x
+/local/x/config.php
+
+#data
+/local/logs
+
+
