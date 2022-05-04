@@ -1,0 +1,14 @@
+{
+    "name": "test/minisol",
+    "type": "project",
+    "autoload": {
+        "psr-4": {"Test\\": "lib/Test"}
+    },
+    "require": {
+        //"symfony/dom-crawler": "^5.2",
+        //"symfony/css-selector": "^5.2"
+    },
+    "require-dev": {
+        "kint-php/kint": "dev-master"
+    }
+}
