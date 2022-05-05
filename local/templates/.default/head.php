@@ -70,6 +70,9 @@ if (APPLICATION_ENV == 'dev') {
         Array(
                 'CONFIG' => ['mobileMaxWidth' => 760],
                 'SCRIPTS' => $lstScripts,
+                'EXTENSIONS' => [
+                        'x.ui',
+                    ]
             )
     );?>
 
