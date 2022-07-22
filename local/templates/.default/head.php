@@ -53,15 +53,15 @@
 
 
 <?
-$lstScripts = [
-        P_JS.'/vendor.js'
-    ];
-if (APPLICATION_ENV == 'dev') {
-    $lstScripts[] = '/local/sources/src/js'.'/80.plagins.js';
-    $lstScripts[] = '/local/sources/src/js'.'/99.main.js';
-} else {
-    $lstScripts[] = P_JS.'/app.js';
-}
+//$lstScripts = [
+//        P_JS.'/vendor.js'
+//    ];
+//if (APPLICATION_ENV == 'dev') {
+//    $lstScripts[] = '/local/sources/src/js'.'/80.plagins.js';
+//    $lstScripts[] = '/local/sources/src/js'.'/99.main.js';
+//} else {
+//    $lstScripts[] = P_JS.'/app.js';
+//}
 ?>
 
 <?$APPLICATION->IncludeComponent(
@@ -84,16 +84,16 @@ if (APPLICATION_ENV == 'dev') {
 <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
 <?
-$asset = \Bitrix\Main\Page\Asset::getInstance();
-
-$asset->addJS(P_JS.'/vendor.js');
-
-if (APPLICATION_ENV == 'dev') {
-    $asset->addJS('/local/assets/src/js'.'/80.plagins.js');
-    $asset->addJS('/local/assets/src/js'.'/99.main.js');
-} else {
-    $asset->addJS(P_JS.'/app.js');
-}
+//$asset = \Bitrix\Main\Page\Asset::getInstance();
+//
+//$asset->addJS(P_JS.'/vendor.js');
+//
+//if (APPLICATION_ENV == 'dev') {
+//    $asset->addJS('/local/assets/src/js'.'/80.plagins.js');
+//    $asset->addJS('/local/assets/src/js'.'/99.main.js');
+//} else {
+//    $asset->addJS(P_JS.'/app.js');
+//}
 
 
 
@@ -102,9 +102,10 @@ $APPLICATION->ShowMeta('keywords', false);
 $APPLICATION->ShowMeta('description', false);
 //$APPLICATION->ShowMeta('author', false);
 $APPLICATION->ShowLink('canonical', null);
-$APPLICATION->ShowHeadStrings();
+//$APPLICATION->ShowHeadStrings();
 
 // если это не первый вход на сайт - выводим стили в начале страницы, без всяких танцев
+/*
 if (!FIRST_LOAD):
     $APPLICATION->ShowCSS(true);?>
 <?else:
