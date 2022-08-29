@@ -1,4 +1,4 @@
-<?
+<?/*
 $ss = \App\Stringstorage::getInstance();
 
 $title = $ss->getStringVal('title');
@@ -15,7 +15,7 @@ $dctPageProperties = [
 foreach ($dctPageProperties as $prop=>$val) {
     if (!$APPLICATION->GetPageProperty($prop)) $APPLICATION->SetPageProperty($prop,$val);
 }
-
+*/
 
 $asset = \Bitrix\Main\Page\Asset::getInstance();
 $asset->addCss(P_CSS.'/app.css',true);

@@ -1,3 +1,8 @@
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
+<?
+// вместо хедера
+require($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/prolog_before.php');
+CModule::IncludeModule("x.module");
+$module = new \X\Module\Module;
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+\Kint::dump($module->getAdminFiles());

@@ -11,7 +11,7 @@ if (\Bitrix\Main\Loader::includeModule('x.core')) {
     
     // настройки кинт (если не используется x.core)
     \Kint\Renderer\RichRenderer::$folder = true;
-    if (APPLICATION_ENV != 'dev') {
+    if (!defined('APPLICATION_ENV') || APPLICATION_ENV != 'dev') {
         \Kint::$enabled_mode = false;
         define('VUEJS_DEBUG', true);
     }

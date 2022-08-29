@@ -71,7 +71,8 @@
                 'CONFIG' => ['mobileMaxWidth' => 760],
                 'SCRIPTS' => $lstScripts,
                 'EXTENSIONS' => [
-                        'x.ui',
+                        //'x.ui',
+                        'x.bitcoin'
                     ]
             )
     );?>

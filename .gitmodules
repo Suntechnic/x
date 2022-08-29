@@ -1,9 +1,12 @@
 [submodule "local/modules/x.core"]
 	path = local/modules/x.core
-	url = git@github.com:Suntechnic/xCore.git
+	url = https://github.com/Suntechnic/xCore.git
 [submodule "local/components/x"]
 	path = local/components/x
-	url = git@github.com:Suntechnic/xComponents.git
+	url = https://github.com/Suntechnic/xComponents.git
 [submodule "local/js/x"]
 	path = local/js/x
 	url = git@github.com:Suntechnic/xExtensions.git
+[submodule "local/modules/x.module"]
+	path = local/modules/x.module
+	url = https://github.com/Suntechnic/xModule.git
