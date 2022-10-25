@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
 <?include(S_P_LAYOUT.'/header.php');
-$ss = \App\Stringstorage::getInstance();
+//$ss = \App\Stringstorage::getInstance();
 ?>
 <div class="page">
 	<!-- HEADER :: START-->
