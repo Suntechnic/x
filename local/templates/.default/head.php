@@ -3,40 +3,41 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="theme-color" content="#fff">
+<meta name="theme-color" content="#E30613">
 <meta name="format-detection" content="telephone=no">
 
 
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="<?=P_IMAGES?>/fav/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-
-
+<meta name="msapplication-TileColor" content="#E30613">
+<meta name="msapplication-TileImage" content="/local/templates/.default/assets/images/fav/ms-icon-144x144.png">
+<meta name="theme-color" content="#E30613">
 
 <!-- favicon-->
-<link rel="apple-touch-icon" href="<?=P_IMAGES?>/fav/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="<?=P_IMAGES?>/fav/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="<?=P_IMAGES?>/fav/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="<?=P_IMAGES?>/fav/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="<?=P_IMAGES?>/fav/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="<?=P_IMAGES?>/fav/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="<?=P_IMAGES?>/fav/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="<?=P_IMAGES?>/fav/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?=P_IMAGES?>/fav/apple-icon-180x180.png">
-<link rel="apple-touch-icon" href="<?=P_IMAGES?>/fav/apple-icon.png">
-<link rel="icon" type="image/png" sizes="36x36" href="<?=P_IMAGES?>/fav/android-icon-36x36.png">
-<link rel="icon" type="image/png" sizes="48x48" href="<?=P_IMAGES?>/fav/android-icon-48x48.png">
-<link rel="icon" type="image/png" sizes="72x72" href="<?=P_IMAGES?>/fav/android-icon-72x72.png">
-<link rel="icon" type="image/png" sizes="96x96" href="<?=P_IMAGES?>/fav/android-icon-96x96.png">
-<link rel="icon" type="image/png" sizes="144x144" href="<?=P_IMAGES?>/fav/android-icon-144x144.png">
-<link rel="icon" type="image/png" sizes="192x192" href="<?=P_IMAGES?>/fav/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?=P_IMAGES?>/fav/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?=P_IMAGES?>/fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="<?=P_IMAGES?>/fav/favicon-96x96.png">
-<link rel="icon" type="image/png" href="<?=P_IMAGES?>/fav/favicon.png">
-<link rel="shortcut icon" type="image/x-icon" href="<?=P_IMAGES?>/fav/favicon.ico">
+<?if(APPLICATION_ENV == 'dev'):?>
+<link rel="shortcut icon" type="image/x-icon" href="/local/templates/.default/assets_dev/images/fav/favicon.png">
+<?else:?>
+<link rel="apple-touch-icon" href="/local/templates/.default/assets/images/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/local/templates/.default/assets/images/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/local/templates/.default/assets/images/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/local/templates/.default/assets/images/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/local/templates/.default/assets/images/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/local/templates/.default/assets/images/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/local/templates/.default/assets/images/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/local/templates/.default/assets/images/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/local/templates/.default/assets/images/fav/apple-icon-180x180.png">
+<link rel="apple-touch-icon" href="/local/templates/.default/assets/images/fav/apple-icon.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/local/templates/.default/assets/images/fav/android-icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/local/templates/.default/assets/images/fav/android-icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/local/templates/.default/assets/images/fav/android-icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/local/templates/.default/assets/images/fav/android-icon-96x96.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/local/templates/.default/assets/images/fav/android-icon-144x144.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/local/templates/.default/assets/images/fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/local/templates/.default/assets/images/fav/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/local/templates/.default/assets/images/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/local/templates/.default/assets/images/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" href="/local/templates/.default/assets/images/fav/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/local/templates/.default/assets/images/fav/favicon.ico">
+<?endif?>
 
-    
 <!-- seo meta-->
 <meta name="author" content="minisol.ru">
 
@@ -51,19 +52,6 @@
 <meta property="twitter:description" content="<?=$APPLICATION->ShowProperty('og_description')?>">
 
 
-
-<?
-//$lstScripts = [
-//        P_JS.'/vendor.js'
-//    ];
-//if (APPLICATION_ENV == 'dev') {
-//    $lstScripts[] = '/local/sources/src/js'.'/80.plagins.js';
-//    $lstScripts[] = '/local/sources/src/js'.'/99.main.js';
-//} else {
-//    $lstScripts[] = P_JS.'/app.js';
-//}
-?>
-
 <?$APPLICATION->IncludeComponent(
         'x:js.app',
         '',
@@ -71,8 +59,7 @@
                 'CONFIG' => ['mobileMaxWidth' => 760],
                 'SCRIPTS' => $lstScripts,
                 'EXTENSIONS' => [
-                        //'x.ui',
-                        'x.bitcoin'
+                        
                     ]
             )
     );?>
@@ -84,44 +71,4 @@
 
 <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
-<?
-//$asset = \Bitrix\Main\Page\Asset::getInstance();
-//
-//$asset->addJS(P_JS.'/vendor.js');
-//
-//if (APPLICATION_ENV == 'dev') {
-//    $asset->addJS('/local/assets/src/js'.'/80.plagins.js');
-//    $asset->addJS('/local/assets/src/js'.'/99.main.js');
-//} else {
-//    $asset->addJS(P_JS.'/app.js');
-//}
-
-
-
-$APPLICATION->ShowMeta('robots', false);
-$APPLICATION->ShowMeta('keywords', false);
-$APPLICATION->ShowMeta('description', false);
-//$APPLICATION->ShowMeta('author', false);
-$APPLICATION->ShowLink('canonical', null);
-//$APPLICATION->ShowHeadStrings();
-
-// если это не первый вход на сайт - выводим стили в начале страницы, без всяких танцев
-/*
-if (!FIRST_LOAD):
-    $APPLICATION->ShowCSS(true);?>
-<?else:
-    // если выводим стили первый раз
-    // то layout.css добавим в страницу
-    // а для бapp.css добавим preload, так ак он будет в самом конце
-    $asset->addString('<link rel="preload" href="'.P_CSS.'/app.css" as="style">');
-    ?>
-    <style><?=str_replace(
-            [
-                    'url("../',
-                    'url(../',
-                ],
-            [
-                    'url("'.P_CSS.'/../',
-                    'url('.P_CSS.'/../',
-                ], file_get_contents(S_P_CSS . '/layout.css'))?></style>
-<?endif?>
+<?$APPLICATION->ShowHead();

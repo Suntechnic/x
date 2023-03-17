@@ -21,4 +21,4 @@
     </footer>
     <!-- FOOTER :: END-->
 </div>
-<?include(S_P_LAYOUT.'/footer.php');?>
+<?include(\Bitrix\Main\Application::getDocumentRoot().'/local/templates/.default/footer.php');?>

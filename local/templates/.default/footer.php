@@ -1,5 +1,5 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<?include(S_P_LAYOUT.'/foot.php');?>
+<?include('foot.php');?>
 
 <?
 $IP = $_SERVER['REMOTE_ADDR'];
@@ -17,8 +17,8 @@ if ('dev' != APPLICATION_ENV) {
     }
     
     if ($needCounters) {
-        include(S_P_LAYOUT.'/counters_head.php');
-        include(S_P_LAYOUT.'/counters_body.php');
+        include('counters_head.php');
+        include('counters_body.php');
     }
     
 }

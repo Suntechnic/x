@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="<?=LANGUAGE_ID?>">
 <head>
-    <?include(S_P_LAYOUT.'/head.php');?>
+    <?include('head.php');?>
 </head>
 <body>
 

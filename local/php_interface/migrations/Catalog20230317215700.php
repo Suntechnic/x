@@ -3,9 +3,9 @@
 namespace Sprint\Migration;
 
 
-class Content20221216183301 extends Version
+class Catalog20230317215700 extends Version
 {
-    protected $description = "Тип ИБ Контент";
+    protected $description = "Тип ИБ Каталог";
 
     protected $moduleVersion = "4.1.3";
 
@@ -17,7 +17,7 @@ class Content20221216183301 extends Version
     {
         $helper = $this->getHelperManager();
         $helper->Iblock()->saveIblockType(array (
-  'ID' => 'content',
+  'ID' => 'catalog',
   'SECTIONS' => 'Y',
   'EDIT_FILE_BEFORE' => '',
   'EDIT_FILE_AFTER' => '',
@@ -27,13 +27,13 @@ class Content20221216183301 extends Version
   array (
     'ru' => 
     array (
-      'NAME' => 'Контент',
+      'NAME' => 'Каталог',
       'SECTION_NAME' => '',
       'ELEMENT_NAME' => '',
     ),
     'en' => 
     array (
-      'NAME' => 'Contents',
+      'NAME' => 'Каталог',
       'SECTION_NAME' => '',
       'ELEMENT_NAME' => '',
     ),
