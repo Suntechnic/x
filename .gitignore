@@ -1,5 +1,4 @@
 #Test 
-/local/__dump
 /_tools
 /_test
 /_devzone
@@ -26,10 +25,7 @@
 /bitrix
 /upload
 
-#x
-/local/x/config.php
-
 #data
-/local/logs
+/local/.logs
 
 
