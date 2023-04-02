@@ -1,18 +1,15 @@
 <?
-
+if ($_SERVER['APPLICATION_ENV']) {
+    define('APPLICATION_ENV',$_SERVER['APPLICATION_ENV']);
+} else {
+    define('APPLICATION_ENV','production');
+}
 
 require __DIR__ . '/vendor/autoload.php';
 
-// подключение xCore  
-// https://github.com/Suntechnic/xCore/blob/master/README.md  
-if (\Bitrix\Main\Loader::includeModule('x.core')) {
-    
-} else {
-    
-    // настройки кинт (если не используется x.core)
-    \Kint\Renderer\RichRenderer::$folder = true;
-    if (!defined('APPLICATION_ENV') || APPLICATION_ENV != 'dev') {
-        \Kint::$enabled_mode = false;
-        define('VUEJS_DEBUG', true);
-    }
+\Kint\Renderer\RichRenderer::$folder = true;
+if (!defined('APPLICATION_ENV') || APPLICATION_ENV != 'dev') {
+    \Kint::$enabled_mode = false;
+} else if (defined('APPLICATION_ENV') || APPLICATION_ENV != 'production') {
+    define('VUEJS_DEBUG', true);
 }
