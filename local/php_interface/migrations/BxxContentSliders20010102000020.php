@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class Sliders20221216183611 extends Version
+class BxxContentSliders20010102000020 extends Version
 {
     protected $description = "Слайдеры: Элементы";
 

@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class Content20221216183301 extends Version
+class BxxContent20010101000000 extends Version
 {
     protected $description = "Тип ИБ Контент";
 

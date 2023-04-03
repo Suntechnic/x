@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class Catalog20230317215700 extends Version
+class BxxCatalog20020101000000 extends Version
 {
     protected $description = "Тип ИБ Каталог";
 

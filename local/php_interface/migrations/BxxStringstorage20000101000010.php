@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class Stringstorage20221216130024 extends Version
+class BxxStringstorage20000101000010 extends Version
 {
     protected $description = "Строковое хранилище: значения";
 
