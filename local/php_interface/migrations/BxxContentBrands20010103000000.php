@@ -341,7 +341,7 @@ class BxxContentBrands20010103000000 extends Version
   'HINT' => '',
 ));
             $helper->UserOptions()->saveElementForm($iblockId, array (
-  'Слайд|edit1' => 
+  'Брэнд|edit1' => 
   array (
     'ID' => 'ID',
     'DATE_CREATE' => 'Создан',
@@ -353,7 +353,8 @@ class BxxContentBrands20010103000000 extends Version
     'CODE' => 'Символьный код',
     'SORT' => 'Сортировка',
     'PROPERTY_URL' => 'Ссылка',
-    'DETAIL_PICTURE' => 'Детальная картинка',
+    'DETAIL_PICTURE' => 'Логотип',
+    'PREVIEW_TEXT' => 'Описание',
   ),
 ));
     $helper->UserOptions()->saveSectionGrid($iblockId, array (
