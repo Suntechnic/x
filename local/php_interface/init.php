@@ -1,5 +1,7 @@
 <?
-if ($_SERVER['APPLICATION_ENV']) {
+
+if ($_SERVER['APPLICATION_ENV'] || $_SERVER['REDIRECT_APPLICATION_ENV']) {
+    if (!$_SERVER['APPLICATION_ENV']) $_SERVER['APPLICATION_ENV'] = $_SERVER['REDIRECT_APPLICATION_ENV'];
     define('APPLICATION_ENV',$_SERVER['APPLICATION_ENV']);
 } else {
     define('APPLICATION_ENV','production');
@@ -13,3 +15,6 @@ if (!defined('APPLICATION_ENV') || APPLICATION_ENV != 'dev') {
 } else if (defined('APPLICATION_ENV') || APPLICATION_ENV != 'production') {
     define('VUEJS_DEBUG', true);
 }
+
+$DefaultTemplatePath = \Bitrix\Main\Application::getDocumentRoot().'/local/templates/.default';
+define('DEFAULT_TEMPLATE_PATH',$DefaultTemplatePath);
