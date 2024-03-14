@@ -4,6 +4,6 @@
 <head>
     <?include('head.php');?>
 </head>
-<body>
+<body class="home">
 
     
