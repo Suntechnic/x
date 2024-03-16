@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class BxxCatalogCatalog2002010101000020240316142526 extends Version
+class BxxCatalogCatalog20020101010000 extends Version
 {
     protected $description = "Инфоблок Каталога";
 
