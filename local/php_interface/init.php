@@ -1,4 +1,4 @@
-<?
+<?php
 
 if ($_SERVER['APPLICATION_ENV'] || $_SERVER['REDIRECT_APPLICATION_ENV']) {
     if (!$_SERVER['APPLICATION_ENV']) $_SERVER['APPLICATION_ENV'] = $_SERVER['REDIRECT_APPLICATION_ENV'];
@@ -18,3 +18,9 @@ if (!defined('APPLICATION_ENV') || APPLICATION_ENV != 'dev') {
 
 $DefaultTemplatePath = \Bitrix\Main\Application::getDocumentRoot().'/local/templates/.default';
 define('DEFAULT_TEMPLATE_PATH',$DefaultTemplatePath);
+
+// подгрузка всего из папки init
+$lstInitsFile = array_filter(scandir(__DIR__.'/init'),function ($N) {return (
+        substr($N,-4) == '.php'
+    );});
+if ($lstInitsFile) foreach ($lstInitsFile as $FileName) include(__DIR__.'/init/'.$FileName);
