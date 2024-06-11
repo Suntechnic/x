@@ -1,0 +1,13 @@
+{
+    "name": "vendor/project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "lib/App",
+            "Bxx\\": "lib/Bxx"
+        }
+    },
+    "require-dev": {
+        "kint-php/kint": "dev-master"
+    }
+}
