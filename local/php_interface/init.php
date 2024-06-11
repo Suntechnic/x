@@ -20,7 +20,8 @@ $DefaultTemplatePath = \Bitrix\Main\Application::getDocumentRoot().'/local/templ
 define('DEFAULT_TEMPLATE_PATH',$DefaultTemplatePath);
 
 // подгрузка всего из папки init
-$lstInitsFile = array_filter(scandir(__DIR__.'/init'),function ($N) {return (
+$lstInitsFile = scandir(__DIR__.'/init');
+if ($lstInitsFile) $lstInitsFile = array_filter($lstInitsFile,function ($N) {return (
         substr($N,-4) == '.php'
     );});
 if ($lstInitsFile) foreach ($lstInitsFile as $FileName) include(__DIR__.'/init/'.$FileName);
