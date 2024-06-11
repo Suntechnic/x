@@ -23,7 +23,7 @@ class BxxCatalogOffers20020101020000 extends Version
     0 => 's1',
   ),
   'CODE' => 'offers',
-  'API_CODE' => NULL,
+  'API_CODE' => 'offers',
   'REST_ON' => 'N',
   'NAME' => 'Торговые предложения',
   'ACTIVE' => 'Y',

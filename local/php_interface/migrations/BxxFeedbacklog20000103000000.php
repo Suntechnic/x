@@ -3,7 +3,7 @@
 namespace Sprint\Migration;
 
 
-class Feedbacklog20221227170000 extends Version
+class BxxFeedbacklog20000103000000 extends Version
 {
     protected $description = "Журнал обращений";
 
