@@ -1,5 +1,5 @@
 {
-    "name": "vendor/project",
+    "name": "x/dev",
     "type": "project",
     "autoload": {
         "psr-4": {

@@ -1,0 +1,9 @@
+[submodule "local/php_interface/lib/Bxx"]
+	path = local/php_interface/lib/Bxx
+	url = git@github.com:Suntechnic/xBxx.git
+[submodule "local/components/x"]
+	path = local/components/x
+	url = git@github.com:Suntechnic/xComponents.git
+[submodule "local/js/x"]
+	path = local/js/x
+	url = git@github.com:Suntechnic/xExtensions.git
