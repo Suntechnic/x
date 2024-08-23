@@ -1,4 +1,6 @@
 <?php
+// установите на тестовй среде:
+// SetEnv APPLICATION_ENV 'dev'
 
 if ($_SERVER['APPLICATION_ENV'] || $_SERVER['REDIRECT_APPLICATION_ENV']) {
     if (!$_SERVER['APPLICATION_ENV']) $_SERVER['APPLICATION_ENV'] = $_SERVER['REDIRECT_APPLICATION_ENV'];
