@@ -3,9 +3,9 @@
 namespace Sprint\Migration;
 
 
-class BxxContentBrands20010103000000 extends Version
+class BxxContentSliders20010101020000 extends Version
 {
-    protected $description = "Брэнды";
+    protected $description = "Слайдеры";
 
     protected $moduleVersion = "4.1.3";
 
@@ -16,16 +16,39 @@ class BxxContentBrands20010103000000 extends Version
     public function up()
     {
         $helper = $this->getHelperManager();
+        $helper->Iblock()->saveIblockType(array (
+  'ID' => 'content',
+  'SECTIONS' => 'Y',
+  'EDIT_FILE_BEFORE' => '',
+  'EDIT_FILE_AFTER' => '',
+  'IN_RSS' => 'N',
+  'SORT' => '500',
+  'LANG' => 
+  array (
+    'ru' => 
+    array (
+      'NAME' => 'Контент',
+      'SECTION_NAME' => '',
+      'ELEMENT_NAME' => '',
+    ),
+    'en' => 
+    array (
+      'NAME' => 'Contents',
+      'SECTION_NAME' => '',
+      'ELEMENT_NAME' => '',
+    ),
+  ),
+));
         $iblockId = $helper->Iblock()->saveIblock(array (
   'IBLOCK_TYPE_ID' => 'content',
   'LID' => 
   array (
     0 => 's1',
   ),
-  'CODE' => 'brands',
+  'CODE' => 'sliders',
   'API_CODE' => NULL,
   'REST_ON' => 'N',
-  'NAME' => 'Брэнды',
+  'NAME' => 'Слайдер',
   'ACTIVE' => 'Y',
   'SORT' => '500',
   'LIST_PAGE_URL' => '',
@@ -116,7 +139,7 @@ class BxxContentBrands20010103000000 extends Version
   'PREVIEW_PICTURE' => 
   array (
     'NAME' => 'Картинка для анонса',
-    'IS_REQUIRED' => 'Y',
+    'IS_REQUIRED' => 'N',
     'DEFAULT_VALUE' => 
     array (
       'FROM_DETAIL' => 'N',
@@ -199,15 +222,15 @@ class BxxContentBrands20010103000000 extends Version
   'CODE' => 
   array (
     'NAME' => 'Символьный код',
-    'IS_REQUIRED' => 'Y',
+    'IS_REQUIRED' => 'N',
     'DEFAULT_VALUE' => 
     array (
-      'UNIQUE' => 'Y',
+      'UNIQUE' => 'N',
       'TRANSLITERATION' => 'N',
       'TRANS_LEN' => 100,
       'TRANS_CASE' => 'L',
-      'TRANS_SPACE' => '',
-      'TRANS_OTHER' => '',
+      'TRANS_SPACE' => '-',
+      'TRANS_OTHER' => '-',
       'TRANS_EAT' => 'Y',
       'USE_GOOGLE' => 'N',
     ),
@@ -341,7 +364,7 @@ class BxxContentBrands20010103000000 extends Version
   'HINT' => '',
 ));
             $helper->UserOptions()->saveElementForm($iblockId, array (
-  'Брэнд|edit1' => 
+  'Слайд|edit1' => 
   array (
     'ID' => 'ID',
     'DATE_CREATE' => 'Создан',
@@ -353,8 +376,7 @@ class BxxContentBrands20010103000000 extends Version
     'CODE' => 'Символьный код',
     'SORT' => 'Сортировка',
     'PROPERTY_URL' => 'Ссылка',
-    'DETAIL_PICTURE' => 'Логотип',
-    'PREVIEW_TEXT' => 'Описание',
+    'DETAIL_PICTURE' => 'Детальная картинка',
   ),
 ));
     $helper->UserOptions()->saveSectionGrid($iblockId, array (

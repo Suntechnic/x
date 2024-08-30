@@ -3,11 +3,11 @@
 namespace Sprint\Migration;
 
 
-class BxxNews20010202000010 extends Version
+class BxxContentSliders20010101020010 extends Version
 {
-    protected $description = "Инфоблок новостей: Разделы";
+    protected $description = "Слайдеры: Разделы";
 
-    protected $moduleVersion = "4.6.1";
+    protected $moduleVersion = "4.1.3";
 
     /**
      * @throws Exceptions\HelperException
@@ -18,7 +18,7 @@ class BxxNews20010202000010 extends Version
         $helper = $this->getHelperManager();
 
         $iblockId = $helper->Iblock()->getIblockIdIfExists(
-            'news',
+            'sliders',
             'content'
         );
 
@@ -27,17 +27,7 @@ class BxxNews20010202000010 extends Version
             array (
   0 => 
   array (
-    'NAME' => 'Новости',
-    'CODE' => '',
-    'SORT' => '500',
-    'ACTIVE' => 'Y',
-    'XML_ID' => NULL,
-    'DESCRIPTION' => '',
-    'DESCRIPTION_TYPE' => 'text',
-  ),
-  1 => 
-  array (
-    'NAME' => 'Акции',
+    'NAME' => 'Главная страница',
     'CODE' => '',
     'SORT' => '500',
     'ACTIVE' => 'Y',

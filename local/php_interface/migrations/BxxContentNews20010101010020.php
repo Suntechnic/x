@@ -2,7 +2,7 @@
 
 namespace Sprint\Migration;
 
-class BxxNews20010202000020 extends Version
+class BxxContentNews20010101010020 extends Version
 {
     protected $description   = "Инфоблок новостей: элементы";
     protected $moduleVersion = "4.6.1";
