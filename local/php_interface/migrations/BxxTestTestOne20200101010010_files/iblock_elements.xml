@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items iblockUid="test:test1" exchangeVersion="2">
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 1</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm1</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 2</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm2</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item2</value></property>
+        <property name="LISTMULTI"><value>testib1item30</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 3</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm3</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 4</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm4</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value></property>
+        <property name="LIST"><value>testib1item3</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 5</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm5</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>tar</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 6</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm6</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 7</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm7</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>rum</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item50</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 8</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm8</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 9</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm9</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 10</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm10</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRINGMULTI"><value>s</value><value>d</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item30</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 11</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm11</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 12</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm12</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item2</value></property>
+        <property name="LISTMULTI"><value>testib1item30</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 13</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm13</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 14</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm14</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value></property>
+        <property name="LIST"><value>testib1item3</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 15</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm15</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>tar</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 16</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm16</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 17</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm17</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>rum</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item50</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 18</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm18</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 19</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm19</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 20</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm20</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 21</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm21</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 22</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm22</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item2</value></property>
+        <property name="LISTMULTI"><value>testib1item30</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 23</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm23</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 24</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm24</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value></property>
+        <property name="LIST"><value>testib1item3</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 25</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm25</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>tar</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 26</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm26</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 27</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm27</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>rum</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item50</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 28</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm28</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 29</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm29</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 30</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm30</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 31</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm31</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 32</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm32</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item2</value></property>
+        <property name="LISTMULTI"><value>testib1item30</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 33</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm33</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item20</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 34</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm34</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value></property>
+        <property name="LIST"><value>testib1item3</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 35</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm35</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>tar</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 36</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm36</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 37</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm37</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>rum</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item4</value></property>
+        <property name="LISTMULTI"><value>testib1item50</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 38</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm38</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>q</value><value>w</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item10</value></property>
+    </item>
+    <item>
+        <field name="ACTIVE"><value>Y</value></field>
+        <field name="ACTIVE_FROM"/><field name="ACTIVE_TO"/>
+        <field name="SORT"><value>500</value></field>
+        <field name="NAME"><value>Тестовый элемент 39</value></field>
+        <field name="PREVIEW_PICTURE"><value name="220px-AGK_bass1_full.jpg">iblock/06a/aouiupf8xe51qpgw2m49l371bvkc849g.jpg</value></field>
+        <field name="XML_ID"><value>testib1elm39</value></field>
+        <field name="IBLOCK_SECTION"/>
+        <property name="STRING"><value>q</value></property>
+        <property name="STRINGMULTI"><value>w</value><value>e</value><value>r</value><value>t</value></property>
+        <property name="LIST"><value>testib1item1</value></property>
+        <property name="LISTMULTI"><value>testib1item40</value></property>
+    </item>
+</items>
