@@ -1,0 +1,2 @@
+<?php
+\Bxx\Core::init();

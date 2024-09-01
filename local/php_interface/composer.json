@@ -8,6 +8,10 @@
         }
     },
     "require-dev": {
-        "kint-php/kint": "dev-master"
+        "kint-php/kint": "dev-master",
+        "phpunit/phpunit": "11.3"
+    },
+    "require": {
+        "mav/slovo": "^0.2.3"
     }
 }
