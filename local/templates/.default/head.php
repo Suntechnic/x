@@ -8,33 +8,28 @@
 <?if(APPLICATION_ENV == 'dev'):?><meta name="robots" content="noindex"><?endif?>
 
 <?
-\Bitrix\Main\Localization\Loc::setCurrentLang('en');
+\Bitrix\Main\Localization\Loc::setCurrentLang('ru');
 
 $assets = \Bitrix\Main\Page\Asset::getInstance();
 
-$assets->addCss('/local/assets/fonts/gilroy/stylesheet.css');
-$assets->addCss('/local/assets/css/bootstrap.min.css');
-$assets->addCss('/local/assets/swiper/swiper-bundle.min.css');
-$assets->addCss('/local/assets/css/nouislider.min.css'); ////////////////////
-$assets->addCss('/local/assets/css/theme.css');
+$assets->addCss('/local/assets/style/libs.min.css');
+$assets->addCss('/local/assets/style/main.css');
 
-$assets->addJs('/local/assets/js/jquery.js');
-$assets->addJs('/local/assets/js/fancybox.umd.js');
-$assets->addJs('/local/assets/swiper/swiper-bundle.min.js');
-$assets->addJs('/local/assets/js/wNumb.min.js');
-$assets->addJs('/local/assets/js/nouislider.min.js'); //////////////////////////
-$assets->addJs('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js');
+
+$assets->addJs('/local/assets/js/libs.min.js');
 $assets->addJs('/local/assets/js/script.js');
+
 
 \Bitrix\Main\UI\Extension::load(['main.core', 'currency', 'x.core', 'app.vue.vuex']);
 
 $APPLICATION->ShowHead();
 
+// настройка формата валюты
 if (\Bitrix\Main\Loader::includeModule('currency')) {
-    $currencyFormat = \CCurrencyLang::GetFormatDescription('USD');
+    $currencyFormat = \CCurrencyLang::GetFormatDescription('RUB');
     $lstCurrencies = array(
             array(
-                    'CURRENCY' => 'USD',
+                    'CURRENCY' => 'RUB',
                     'FORMAT' => array(
                         'FORMAT_STRING' => $currencyFormat['FORMAT_STRING'],
                         'DEC_POINT' => $currencyFormat['DEC_POINT'],
@@ -51,3 +46,13 @@ if (\Bitrix\Main\Loader::includeModule('currency')) {
 	</script>
 	<?php
 }
+
+?>
+<!-- og meta-->
+<meta property="og:type"content="website">
+<meta property="og:title" content="<?=$APPLICATION->ShowProperty('og_title')?>">
+<meta property="og:description" content="<?=$APPLICATION->ShowProperty('og_description')?>">
+<meta property="og:url" content="<?=$APPLICATION->ShowProperty('og_url')?>">
+<meta property="og:image" content="<?=$APPLICATION->ShowProperty('og_image')?>">
+<meta property="og:site_name" content="<?=GetMessage('SITE_NAME')?>">
+<meta property="og:locale"content="<?=LANGUAGE_ID?>">
