@@ -7,3 +7,6 @@
 [submodule "local/js/x"]
 	path = local/js/x
 	url = git@github.com:Suntechnic/xExtensions.git
+[submodule "local/gadgets/x"]
+	path = local/gadgets/x
+	url = git@github.com:Suntechnic/xGadgets.git
