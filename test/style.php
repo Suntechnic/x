@@ -46,6 +46,21 @@ if (isset($_GET['template'])) {
     <hr>
 </section>
 <section>
+    <a name="lists"></a>
+    <h2 title="section h2">Блок списков</h2>
+    <ul>
+        <li title="section ul li">Элемент списка 1</li>
+        <li title="section ul li">Элемент списка 2</li>
+        <li title="section ul li">Элемент списка 3</li>
+    </ul>
+    <ol>
+        <li title="section ol li">Элемент списка 1</li>
+        <li title="section ol li">Элемент списка 2</li>
+        <li title="section ol li">Элемент списка 3</li>
+    </ol>
+    <hr>
+</section>
+<section>
     <a name="form"></a>
     <h2 title="section h2">Блок с формой</h2>
     <form>
@@ -110,6 +125,9 @@ if (isset($_GET['template'])) {
         
     </form>
 </section>
+
+
+
 
 <?
 if (isset($_GET['template'])) {
