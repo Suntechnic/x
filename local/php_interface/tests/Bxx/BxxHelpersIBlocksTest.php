@@ -7,15 +7,6 @@ use PHPUnit\Framework\Attributes\DataProvider;
 class BxxHelpersIBlocksTest extends \PHPUnit\Framework\TestCase
 {
     
-    // private $metaphour;
-    
-    // public function __construct ()
-    // {
-        
-    //     return parent::__construct();
-    // }
-
-
 
 
     public static function lstIBlocksProvider(): array

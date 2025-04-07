@@ -1,47 +1,53 @@
 <?
 return [
-        
+        'test1_bool' => [
+                'tab' => 'Первый тестовый набор',
+                'title' => 'Да',
+                'default' => true,
+                'type' => 'bool'
+            ],
+        'test1_float' => [
+                'tab' => 'Первый тестовый набор',
+                'title' => 'Число с плавающей точкой',
+                'default' => 1.28,
+                'type' => 'float'
+            ],
+        'test1_int' => [
+                'tab' => 'Первый тестовый набор',
+                'title' => 'Число',
+                'default' => 17,
+                'type' => 'integer'
+            ],
+        'test2_bool' => [
+                'tab' => 'Второй тестовый набор',
+                'title' => 'Нет',
+                'default' => false,
+                'type' => 'bool'
+            ],
+        'test2_string' => [
+                'tab' => 'Второй тестовый набор',
+                'title' => 'Строка',
+                'default' => 'Строка',
+                'type' => 'string'
+            ],
+        'test2_int' => [
+                'tab' => 'Второй тестовый набор',
+                'title' => 'Большое число',
+                'hint' => 'это число побольше )))',
+                'default' => 100,
+                'type' => 'integer',
+                //'exampleMethod' => '\App\Settings::deliveryExample'
+            ],
+        'debug' => [
+                'tab' => 'Отладка',
+                'title' => 'Отладка',
+                'default' => false,
+                'type' => 'bool',
+            ],
     ];
 
 
 /**
- * Exemple of usage:
- * 
-return [
-        'onlinecredit' => [
-                'tab' => 'Кредит',
-                'title' => 'Онлайн кредитование',
-                'default' => true,
-                'type' => 'bool'
-            ],
-        'onlinecreditK' => [
-                'tab' => 'Кредит',
-                'title' => 'Множетель для рассчета ставки на 24 месяца',
-                'default' => 1.28,
-                'type' => 'float'
-            ],
-        'priceup' => [
-                'tab' => 'Цены',
-                'title' => 'Процент увеличения Второй цены',
-                'default' => 6,
-                'type' => 'integer'
-            ],
-        'priceplaceholder' => [
-                'tab' => 'Цены',
-                'title' => 'Фраза для вывода вместо цены',
-                'default' => 'Цену уточняйте',
-                'type' => 'string'
-            ],
-        'dlvr_closetime' => [
-                'tab' => 'Доставка',
-                'title' => 'Закрытие доставки',
-                'hint' => 'товары заказанные после этого времени доставляются на следующий день',
-                'default' => 19,
-                'type' => 'integer',
-                'exampleMethod' => '\App\Settings::deliveryExample'
-            ],
-        
-    ];
  * 
  * В класс App\Settings добавить метод deliveryExample
 public static function deliveryExample (): string

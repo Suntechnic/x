@@ -4,6 +4,7 @@ if (isset($_GET['template'])) {
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
     $APPLICATION->SetTitle('Тестовая страница');
 }
+
 ?>
 
 <h1 title="h1">Страница теста основных элементов верстки</h1>

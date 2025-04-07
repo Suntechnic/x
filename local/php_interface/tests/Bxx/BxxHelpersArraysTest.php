@@ -17,7 +17,7 @@ class BxxHelpersArraysTest extends \PHPUnit\Framework\TestCase
             [['ID' => 7,'~ID' => 1, 'PROPERTY_T_VALUE_ID' => 100], ['ID' => 7]],
         ];
     }
-    // тестирование получения id инфоблоков по коду ИБ
+    
     #[DataProvider('arraysCleanProvider')]
     public function testArraysClean(array $dctInput, array $dctOutput): void
     {
