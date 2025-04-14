@@ -31,3 +31,6 @@
 # composer
 /local/php_interface/vendor
 /local/php_interface/composer.lock
+
+# Test
+!/local/php_interface/tests/App
