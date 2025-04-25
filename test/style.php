@@ -1,13 +1,37 @@
 <?
-if (isset($_GET['template'])) {
+
+if (isset($_GET['template']) && $_GET['template'] == '*') {
+    require($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/prolog_before.php');
+    $NeedFooter = false;
+} else {
     if ($_GET['template']) define('SITE_TEMPLATE_ID',$_GET['template']);
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+    $NeedFooter = true;
     $APPLICATION->SetTitle('Тестовая страница');
 }
+
+$dbSiteRes = \CSite::GetTemplateList(SITE_ID);
+$lstTemplate = array();
+while($arSiteRes = $dbSiteRes->Fetch()) {
+    $lstTemplate[] = $arSiteRes;
+}
+
+\Bitrix\Main\UI\Extension::load([
+        'main.core', 'currency', 'x.core',
+        'x.izi'
+    ]);
 
 ?>
 
 <h1 title="h1">Страница теста основных элементов верстки</h1>
+<nav>
+    <ul>
+        <?foreach ($lstTemplate as $dctTemplate):?>
+        <li><a href="<?= $APPLICATION->GetCurPageParam('template='.$dctTemplate['TEMPLATE'], array('template'))?>"><?= $dctTemplate['TEMPLATE']?></a></li>
+        <?endforeach;?>
+        <li><a href="<?= $APPLICATION->GetCurPageParam('', array('template'))?>">Шаблон по умолчанию</a></li>
+        <li><a href="<?= $APPLICATION->GetCurPageParam('template=*', array('template'))?>">Без шаблона</a></li>
+</nav>
 <section>
     <h2 title="section h2">О странице</h2>
     <p title="section p">
@@ -128,10 +152,76 @@ if (isset($_GET['template'])) {
 </section>
 
 
+<section id="x-core">
+    <h2 title="section h2">xCore</h2>
+    <h3 title="section h3">Сообщения iziToast</h3>
+    <p id="x-core-none">Библиотеки x.core и/или x.izi не загружены</p>
+    <button 
+            value="iziToast" 
+            style="display:none" 
+            onclick="iziToastTest();"
+        >Показать сообщения</button>
+    <script>
+        BX.addCustomEvent('x.core:loaded' , ()=>{
+                if (BX.X && BX.X.iziToast) {
+                    document.getElementById('x-core-none').remove();
+                    document.querySelector('[style="display:none"]').style = '';
 
+                    window.iziToastTest = function () {
+                        BX.X.iziToast.show({
+                                timeout: 0,
+                                title: 'Просто сообщение',
+                                message: 'С обычным текстом'
+                            });
+                            
+                        BX.X.iziToast.warning({
+                                timeout: 0,
+                                title: 'Внимание!',
+                                message: 'Это сообщение предупреждающее о чем-то',
+                            });
+
+                        BX.X.iziToast.error({
+                                timeout: 0,
+                                title: 'Ошибка',
+                                message: 'Всё пошло совсем не так',
+                            });
+                            
+                        BX.X.iziToast.success({
+                                timeout: 0,
+                                title: 'Спасибо',
+                                message: 'Всё хорошо',
+                            });
+                            
+                        BX.X.iziToast.info({
+                                timeout: 20000,
+                                overlay: true,
+                                id: 'inputs',
+                                zindex: 999,
+                                title: 'Inputs',
+                                message: 'Examples',
+                                position: 'center',
+                                drag: false,
+                                inputs: [
+                                    ['<input type="checkbox">', 'change', function (instance, toast, input, e) {
+                                        console.info(input.checked);
+                                    }],
+                                    ['<input type="text">', 'keyup', function (instance, toast, input, e) {
+                                        console.info(input.value);
+                                    }, true],
+                                    ['<input type="number">', 'keydown', function (instance, toast, input, e) {
+                                        console.info(input.value);
+                                    }],
+                                ]
+                            });
+                    }
+                }
+            });
+
+    </script>
+</section>
 
 <?
-if (isset($_GET['template'])) {
+if ($NeedFooter) {
     require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 }
 ?>
