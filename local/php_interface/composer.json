@@ -13,6 +13,7 @@
         "phpstan/phpstan": "^2.1"
     },
     "require": {
-        "mav/slovo": "^0.2.3"
+        "mav/slovo": "^0.2.3",
+        "webonyx/graphql-php": "^15.20"
     }
 }
