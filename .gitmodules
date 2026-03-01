@@ -13,3 +13,6 @@
 [submodule "local/php_interface/tests/Bxx"]
 	path = local/php_interface/tests/Bxx
 	url = git@github.com:Suntechnic/xTests.git
+[submodule "local/modules/x.module"]
+	path = local/modules/x.module
+	url = git@github.com:Suntechnic/xModule.git
