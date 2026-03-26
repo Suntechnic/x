@@ -1,14 +1,30 @@
 <?php
 $arUrlRewrite=array (
-  0 => 
+  1 => 
   array (
-    'CONDITION' => '#^\\/?\\/mobileapp/jn\\/(.*)\\/.*#',
-    'RULE' => 'componentName=$1',
+    'CONDITION' => '#^/online/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
+    'RULE' => 'alias=$1',
     'ID' => NULL,
-    'PATH' => '/bitrix/services/mobileapp/jn.php',
+    'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
-  1 => 
+  3 => 
+  array (
+    'CONDITION' => '#^/video/([\\.\\-0-9a-zA-Z]+)(/?)([^/]*)#',
+    'RULE' => 'alias=$1&videoconf',
+    'ID' => 'bitrix:im.router',
+    'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
+  2 => 
+  array (
+    'CONDITION' => '#^/online/(/?)([^/]*)#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
+  0 => 
   array (
     'CONDITION' => '#^/rest/#',
     'RULE' => '',
