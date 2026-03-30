@@ -1,5 +1,5 @@
 <?php
-namespace X\Relations;
+namespace X\Ai;
 
 \Bitrix\Main\Localization\Loc::loadMessages(__FILE__);
 
